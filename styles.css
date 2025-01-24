@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0 auto;
+    padding: 0;
+    width: 500px;
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    font-size: 36px;
+    display: inline-block;
+    padding: 5px 10px;
+}
+
+i[class*='instagram'] {
+    padding: 15px;
+    font-size: 70px;
+    width: auto;
+    position: relative;
+    margin-right: 15px;
+}
+
+.photo-card {
+    margin: 20px 0;
+    padding: 10px;
+    background-color: #f9f9f9;
+}
+
+.photo-card h2 {
+    font-size: 18px;
+    margin: 0;
+    display: inline-flex;
+    padding: 5px 10px;
+}
+
+.photo-card .date {
+    float: right;
+    font-size: 14px;
+    color: #888;
+    padding: 2px 5px;
+}
+
+.photo-card img {
+    display: flex;
+    max-width: 100%;
+    margin: 10px 0;
+}
+
+.photo-card .icons {
+    padding: 10px;
+    font-size: 14px;
+    color: #000000;
+}
+
+.fa-solid.fa-heart {
+    color: red;
+}
